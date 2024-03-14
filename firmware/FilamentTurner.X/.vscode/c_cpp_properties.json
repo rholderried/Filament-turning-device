@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "MCP",
+      "includePath": [
+        "C:/Program Files/Microchip/xc16/v2.10/support/PIC24F/h"
+      ],
+      "defines": ["__PIC24FV16KA301__"],
+      "windowsSdkVersion": "10.0.17763.0",
+      "compilerPath": "C:/Program Files/Microchip/xc16/v2.10/bin/xc16-gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}

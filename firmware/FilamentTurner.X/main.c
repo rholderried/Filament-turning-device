@@ -46,6 +46,9 @@
   Section: Included Files
 */
 #include "mcc_generated_files/system.h"
+#include "Inc/FilamentTurner.h"
+
+tsFILAMENTTURNER sFT = tsFILAMENTTURNER_DEFAULTS;
 
 /*
                          Main application
@@ -54,6 +57,7 @@ int main(void)
 {
     // initialize the device
     SYSTEM_Initialize();
+    FTInit(&sFT);
 
     while (1)
     {
@@ -61,6 +65,11 @@ int main(void)
     }
 
     return 1;
+}
+
+void TMR1_CallBack (void)
+{
+    StepIncrease(&sFT);
 }
 /**
  End of File

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "stdlib.h": "c",
+        "filamentturner.h": "c",
+        "stdbool.h": "c",
+        "xc.h": "c",
+        "pin_manager.h": "c",
+        "p24fv16ka301.h": "c",
+        "tmr1.h": "c",
+        "alltypes.h": "c"
+    }
+}
